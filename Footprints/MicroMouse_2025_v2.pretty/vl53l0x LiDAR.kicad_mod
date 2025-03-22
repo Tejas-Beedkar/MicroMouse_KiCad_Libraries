@@ -1,0 +1,213 @@
+(footprint "vl53l0x LiDAR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "U**"
+		(at 10.4394 2.7178 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d05b60fb-7a58-4b9b-81fe-d52e5fa085d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "vl53l0x LiDAR"
+		(at 6.5 13.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9a2212a-be89-4d74-b277-7dc5906085e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38a14c9b-480a-4239-9662-fda51cc84508")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e901ae6a-797d-47ba-b8aa-7a3b0f9eaec3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1 1)
+		(end 11.4 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61a4dd03-d925-438e-81bb-e78e0c186d34")
+	)
+	(fp_line
+		(start 1 12)
+		(end 1 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "516095e8-53aa-46f7-a953-d8796d95a732")
+	)
+	(fp_line
+		(start 11.4 1)
+		(end 11.4 12)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0786c264-ed9d-4842-b0fe-abeb5d239769")
+	)
+	(fp_line
+		(start 11.4 12)
+		(end 1 12)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0692d42a-8170-43f8-b8d7-d83779ecf858")
+	)
+	(fp_poly
+		(pts
+			(xy 7.633944 5.100333) (xy 7.659344 7.589533) (xy 9.411944 6.344933)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "405614b4-7d28-4901-a257-2d065e9af8b7")
+	)
+	(fp_line
+		(start 0 13)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8bbe1d0a-c5c6-4a14-962b-30148bd026d8")
+	)
+	(fp_line
+		(start 0 13)
+		(end 12.4 13)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8ea0c742-860c-44b7-a89a-1cc5ab88b470")
+	)
+	(fp_line
+		(start 12.3 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b872426f-f3b2-47f8-ae29-57d19858acc1")
+	)
+	(fp_line
+		(start 12.4 0)
+		(end 12.4 13)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "273f185f-430f-4901-8742-c174261f5ba5")
+	)
+	(fp_text user "vl53l0x"
+		(at 10.9728 11.8364 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9e774e79-571f-4d0a-a25a-8510eeea1fa7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 4.4 10.2)
+		(size 1.8 1.8)
+		(drill 1.016)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "eac36786-62f0-4656-a424-c7ffaa25cbfb")
+	)
+	(pad "2" thru_hole circle
+		(at 4.4 7.66)
+		(size 1.8 1.8)
+		(drill 1.016)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "0d8abae2-2604-440d-9ac2-6e21a3b86231")
+	)
+	(pad "3" thru_hole circle
+		(at 4.4 5.12)
+		(size 1.8 1.8)
+		(drill 1.016)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "72cfab5b-df9f-4f38-a556-870ef4b76d39")
+	)
+	(pad "4" thru_hole circle
+		(at 4.4 2.58)
+		(size 1.8 1.8)
+		(drill 1.016)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "d88235e2-4326-4203-9017-84f79dbf09a8")
+	)
+	(pad "5" thru_hole circle
+		(at 2.1 5.18)
+		(size 1.8 1.8)
+		(drill 1.016)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "aa300225-2ab0-4450-92aa-133673cfb7cf")
+	)
+	(embedded_fonts no)
+	(model "/run/media/zerowolf/SDF-1 (4TB NAS)/Projects_Ongoing/Micromouse_v3/KiCad/Model/vl53l0x LiDAR.stp"
+		(offset
+			(xyz 7.5 -8 7.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 180 -90)
+		)
+	)
+)

@@ -1,0 +1,216 @@
+(footprint "Button DPDT TPH Lock"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CuK sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf")
+	(tags "switch DPDT")
+	(property "Reference" "SW **"
+		(at 2.5814 1.1938 0)
+		(layer "F.SilkS")
+		(uuid "c1a55e12-be32-44db-8f12-4021e6f25e14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DPDT TPH Lock"
+		(at 5.0704 9.7562 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae9f00c0-8b3d-4fce-8313-835654ea16e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c805835e-c7d9-41f1-8bb4-b47ebac94269")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9ac66cf-bd71-44d7-a2dd-442aab5db166")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.508 2.032)
+		(end 0.5082 10.1092)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd11ff43-e3c4-44df-a5ee-acebd6cad26d")
+	)
+	(fp_line
+		(start 0.508 2.032)
+		(end 1.708 2.032)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1b55361-5995-4df0-a226-b18542e5f2df")
+	)
+	(fp_line
+		(start 0.5082 10.1092)
+		(end 1.7082 10.1092)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31386f34-a126-4bba-b79b-b0e52a427858")
+	)
+	(fp_line
+		(start 7.4644 2.0574)
+		(end 6.2644 2.0574)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a128fbb9-0fb8-401f-8e4f-058801bb068f")
+	)
+	(fp_line
+		(start 7.4644 10.1346)
+		(end 6.2644 10.1346)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aae0e5e6-f7d2-420a-9818-16c6f3b12b4c")
+	)
+	(fp_line
+		(start 7.4644 10.1346)
+		(end 7.4644 2.0574)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "573faab6-eb52-4b7a-937c-0c11a60a9052")
+	)
+	(fp_line
+		(start 0 0)
+		(end 8.001 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2df1a8b2-b05d-476c-90fc-04681be26ae7")
+	)
+	(fp_line
+		(start 0 10.668)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5134bee-56fd-459f-9cef-b17127cadf2e")
+	)
+	(fp_line
+		(start 8.001 0)
+		(end 8.001 10.668)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2dc667d3-0eed-4711-8f43-236ee3914a04")
+	)
+	(fp_line
+		(start 8.001 10.668)
+		(end 0 10.668)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0939299c-9ea3-4e3f-8f84-7f51c90996af")
+	)
+	(pad "1" thru_hole rect
+		(at 2.108 3.5986)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "73421228-c812-4927-8661-e333dac21414")
+	)
+	(pad "2" thru_hole circle
+		(at 4.108 3.5986)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "02f1c38d-7236-4518-a78b-d3d327841222")
+	)
+	(pad "3" thru_hole circle
+		(at 6.108 3.5986)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "5abf7ffb-b382-4ef2-a28a-f23ad19d712b")
+	)
+	(pad "4" thru_hole circle
+		(at 2.108 8.5986)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "0b620c60-32bc-4aa5-abff-eff99cecee76")
+	)
+	(pad "5" thru_hole circle
+		(at 4.108 8.5986)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "6c3726b5-0abc-48f4-8827-ed5b58320f39")
+	)
+	(pad "6" thru_hole circle
+		(at 6.108 8.5986)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "80d923ad-b5ae-4c95-8b6b-4a18add45a1a")
+	)
+	(embedded_fonts no)
+	(model "/run/media/zerowolf/SDF-1 (4TB NAS)/Projects_Ongoing/Micromouse_v3/KiCad/Model/Button DPDT TPH Lock.STEP"
+		(offset
+			(xyz 4 -6.1 0)
+		)
+		(scale
+			(xyz 0.8 1 0.93)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

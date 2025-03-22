@@ -1,0 +1,190 @@
+(footprint "Battery Li-Polymer 3.7V 950mAh"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "BT**"
+		(at 1.397 25.1714 90)
+		(layer "F.SilkS" knockout)
+		(uuid "3a00fea4-a3a5-4fa8-aeb2-fdec89e789ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "U1/U2"
+		(at 12.9 17.8 0)
+		(layer "F.SilkS" knockout)
+		(hide yes)
+		(uuid "a6986042-482e-430c-b8c3-aa2d6a8b5519")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef2430a9-f23c-47bf-9578-e10a501c25c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c791e6c3-7f1b-44ec-bf4c-c347be236b21")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 0)
+		(end 41 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec97d641-95da-42d8-9a52-64ba2b18c669")
+	)
+	(fp_line
+		(start 0 28)
+		(end 0 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c5c4e1b-c554-4aba-ae38-7afddd323b4f")
+	)
+	(fp_line
+		(start 41 0)
+		(end 41 28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee40f7d6-f9a7-4d8d-a214-6653986452bd")
+	)
+	(fp_line
+		(start 41 28)
+		(end 0 28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c132aa4a-87dc-4df0-a474-ed558b6cc083")
+	)
+	(fp_line
+		(start -1 -1)
+		(end -1 29)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c74322f3-f888-4689-8d2a-dd83f8c968a2")
+	)
+	(fp_line
+		(start -1 29)
+		(end 42 29)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "10cef9c0-2c1e-41b7-92a1-49d7c8dda101")
+	)
+	(fp_line
+		(start 42 -1)
+		(end -1 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "beab80c9-dc5a-45ed-a105-67e66b76bdd9")
+	)
+	(fp_line
+		(start 42 29)
+		(end 42 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "515f0113-8947-4f85-8eae-c3376b2688e7")
+	)
+	(fp_text user "+V"
+		(at 2.1082 5.1816 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "169abd89-8ea6-4ce5-9377-14a7108652f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Gnd"
+		(at 2.0322 11.8578 90)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "dde96792-1d22-4f82-a453-0844f37f6d47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 1.6 1.9)
+		(size 1.8 1.8)
+		(drill 1.016)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "31d5765b-56cf-4503-8425-fda1217b0782")
+	)
+	(pad "2" thru_hole circle
+		(at 1.5748 7.62)
+		(size 1.8 1.8)
+		(drill 1.016)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "c6bd9e94-b3d0-412c-832b-669f59eec8dd")
+	)
+	(embedded_fonts no)
+	(model "/run/media/zerowolf/SDF-1 (4TB NAS)/Projects_Ongoing/Micromouse_v3/KiCad/Model/Battery Li-Polymer 3.7V 950mAh.step"
+		(offset
+			(xyz 22 -14 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
