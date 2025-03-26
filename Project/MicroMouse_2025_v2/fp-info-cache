@@ -1,4 +1,4 @@
-24776043896431712
+24779530725944548
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65877,6 +65877,13 @@ Connector_JST_XH_2
 2
 2
 MicroMouse_2025_v2
+DC-DC 5V3A BEC
+2x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x6.64mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
+0
+4
+4
+MicroMouse_2025_v2
 DC_Motor-Encoder_v1
 
 
@@ -65888,8 +65895,8 @@ DC_Motor-Encoder_v2
 
 
 0
-6
-6
+12
+12
 MicroMouse_2025_v2
 Display_OLED_0.96Inch_SPI_I2C
 
@@ -65904,6 +65911,13 @@ Display_OLED_096-636
 0
 8
 4
+MicroMouse_2025_v2
+GY-87
+
+
+0
+8
+8
 MicroMouse_2025_v2
 H_Bridge_DRV8833
 

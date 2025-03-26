@@ -1,0 +1,193 @@
+(footprint "DC-DC 5V3A BEC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "2x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x6.64mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile")
+	(tags "DIP Switch SPST Slide 7.62mm 300mil LowProfile")
+	(property "Reference" "U**"
+		(at 4.91 2.56 0)
+		(layer "F.SilkS")
+		(uuid "1adb0f52-94b3-4a8e-9301-96212ece0df8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 3.8915 -0.71 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0d3b9f9-69cb-4e9a-946a-744e3ace7fe1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0774670-7007-4c2f-9137-f40ef778d783")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e085a40-583c-45da-8825-c05295b448bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.9915 0.99)
+		(end 0.9915 13.29)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2788b69-ce09-4ae9-af3d-aae14385a972")
+	)
+	(fp_line
+		(start 0.9915 0.99)
+		(end 18.3915 0.99)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "72b86490-5047-4d54-ab6d-28933256d6c1")
+	)
+	(fp_line
+		(start 0.9915 13.29)
+		(end 18.3915 13.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6106bdd1-8e6a-4de4-b367-c1f5250f79d4")
+	)
+	(fp_line
+		(start 18.3915 0.99)
+		(end 18.3915 13.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "67335d1f-6232-4d88-9154-55c9ec829c36")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 14.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8f4cd5da-4a44-49a3-bd06-615dd9940a4b")
+	)
+	(fp_line
+		(start 0 14.3)
+		(end 19.6 14.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f8758889-0839-40d3-bb01-342331b7b65c")
+	)
+	(fp_line
+		(start 19.6 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3699d477-a738-426b-914f-4996bd835399")
+	)
+	(fp_line
+		(start 19.6 14.3)
+		(end 19.6 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e8c5af3-58a7-4506-9a7d-9bf256a8d797")
+	)
+	(fp_text user "DC-DC 5V3A BEC"
+		(at 3.19 7.62 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e77558a3-62b7-4bce-89c7-18d86dc52a16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 2.5915 2.59)
+		(size 1.8 1.8)
+		(drill 1.016)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "ab216095-c60a-403a-a8fe-5786505c8b4b")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5915 10.89)
+		(size 1.8 1.8)
+		(drill 1.016)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "d4b51a38-cceb-4870-a3fe-e6f6e916d70c")
+	)
+	(pad "3" thru_hole circle
+		(at 17.0915 2.59)
+		(size 1.8 1.8)
+		(drill 1.016)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "689e5cb8-332c-4da7-919f-3fc55c4e9594")
+	)
+	(pad "4" thru_hole circle
+		(at 17.0915 10.89)
+		(size 1.8 1.8)
+		(drill 1.016)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "ea340f31-0b85-47ce-bfdc-d6c2b857c43d")
+	)
+	(embedded_fonts no)
+	(model "/run/media/zerowolf/SDF-1 (4TB NAS)/Projects_Ongoing/Micromouse_v3/MicroMouse_KiCad_Libraries/Model/DC-DC 5V3A BEC.step"
+		(offset
+			(xyz 18 -13.5 0)
+		)
+		(scale
+			(xyz 0.85 1 1.08)
+		)
+		(rotate
+			(xyz -90 -0 180)
+		)
+	)
+)

@@ -76,6 +76,15 @@ https://robu.in/product/7x7mm-6-pin-dpdt-self-lock-lock-push-switch-10pcs/
 
 https://robu.in/product/950mah-pcm-protected-micro-li-po-battery/
 
+## DC-DC 5V3A BEC
+
+https://robu.in/product/ultra-small-size-dc-dc-5v-3a-bec-power-supply-buck-step-down-module/
+
+## GY-87 Gyro Module
+
+https://robu.in/product/mpu6050hmc5883lbmp180-10dof-3-axis-gyro-3-axis-acceleration-3-axis-magnetic-field-air-pres/
+
+
 ## Symbols
 
 ![alt text](https://github.com/Tejas-Beedkar/MicroMouse_KiCad_Libraries/blob/main/Symbols.png)
